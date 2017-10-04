@@ -22,7 +22,7 @@ RUN apk update && \
     php5-json \
     php5-mcrypt \
     php5-mysqli \
-    php5-mysqlnd \
+    php5-mysql \
     php5-openssl \
     php5-opcache \
     php5-pdo \

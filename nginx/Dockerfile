@@ -1,4 +1,4 @@
-FROM webhippie/nginx:latest
+caddy/DockerfileFROM webhippie/nginx:latest
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
 EXPOSE 8080
@@ -22,7 +22,7 @@ RUN apk update && \
     php5-json \
     php5-mcrypt \
     php5-mysqli \
-    php5-mysqlnd \
+    php5-mysql \
     php5-openssl \
     php5-opcache \
     php5-pdo \
