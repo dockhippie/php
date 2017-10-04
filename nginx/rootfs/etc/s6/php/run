@@ -19,4 +19,4 @@ then
 fi
 
 echo "> starting php"
-exec /usr/sbin/php-fpm5
+exec php-fpm5
