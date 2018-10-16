@@ -36,6 +36,8 @@ RUN apk update && \
     php5-xml \
     php5-zip \
     php5-zlib \
+    php5-soap \
+    php5-apcu \
     git && \
   ln -sf \
     /usr/bin/php5 \

@@ -1,4 +1,4 @@
-caddy/DockerfileFROM webhippie/nginx:latest
+FROM webhippie/nginx:latest
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
 EXPOSE 8080
@@ -36,6 +36,8 @@ RUN apk update && \
     php5-xml \
     php5-zip \
     php5-zlib \
+    php5-soap \
+    php5-apcu \
     git && \
   ln -sf \
     /usr/bin/php5 \
